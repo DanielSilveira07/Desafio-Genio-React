@@ -1,0 +1,37 @@
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #007BFF;
+    color: #fff;
+    width: 25rem;
+    height: 4.43rem;
+    border-radius: 50px;
+    font-size: 2.8rem;
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+#btn:hover{
+    transform: scale(1.04);
+    background-color: #0063cc;
+}
+@media only screen and (max-width: 480px){
+    .container{
+        margin: 15rem auto 0 auto;
+    }
+    .img_content{
+        width: 100%;
+        img{
+            object-fit: cover;
+            width: 420px;
+        }
+    }
+    #btn{
+        font-size: 2rem;
+        width: 15rem;
+        height: 4.8rem;
+        background-color: #B74794;
+    }
+}
