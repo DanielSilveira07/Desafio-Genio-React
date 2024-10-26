@@ -12,7 +12,7 @@ export function Genio() {
         <section className={styles.container}>
           <div className={styles.img_content}>
             <img
-                src={showGenio ? "https://github.com/mariaccarolina/TurmaFDV/blob/main/imagens/lampada-com-mago.png?raw=true" : "https://github.com/mariaccarolina/TurmaFDV/blob/main/imagens/lampada.png?raw=true"}
+                src={showGenio ? "/src/assets/lampada-com-mago.png" : "/src/assets/lampada.png"}
                 alt={showGenio ? "imagem do gênio" : "imagem da lâmpada do gênio"}
                 className={styles.image}
             />
